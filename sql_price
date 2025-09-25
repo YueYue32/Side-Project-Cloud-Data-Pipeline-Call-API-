@@ -1,0 +1,4 @@
+SELECT bpi['USD'].rate_float AS usd_price, time
+FROM bitcoin_prices
+ORDER BY time DESC
+LIMIT 10;
